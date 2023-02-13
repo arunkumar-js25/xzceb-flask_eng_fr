@@ -16,7 +16,7 @@ language_translator = LanguageTranslatorV3(
     version=version,
     authenticator=authenticator
 )
-language_translator.set_disable_ssl_verification(True)
+#language_translator.set_disable_ssl_verification(True)
 language_translator.set_service_url(url)
 
 
